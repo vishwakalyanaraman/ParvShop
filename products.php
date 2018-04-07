@@ -102,7 +102,7 @@ include 'config.php';
 
 
         <footer style="margin-top:10px;">
-           <p style="text-align:center; font-size:0.8em;clear:both;">&copy; Parv's Computer Store. All Rights Reserved.</p>
+           <p style="text-align: center; font-size:0.8em; position: fixed;bottom: 20px; width:80%;margin: 0 0 0 -40%; left:50%;">&copy; Parv's Computer Store. All Rights Reserved.</p>
         </footer>
 
       </div>

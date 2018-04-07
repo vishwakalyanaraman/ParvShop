@@ -70,7 +70,7 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
               <label for="right-label" class="right inline">Last Name</label>
             </div>
             <div class="small-8 columns">
-              <input type="text" pattern="[A-Za-z]*" id="right-label" placeholder="Kapoor" name="lname">
+              <input type="text" id="right-label" placeholder="Kapoor" name="lname" pattern="[A-Za-z]*">
             </div>
           </div>
           <div class="row">
@@ -86,7 +86,7 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
               <label for="right-label" class="right inline">City</label>
             </div>
             <div class="small-8 columns">
-              <input type="text" id="right-label" placeholder="Mumbai" name="city">
+              <input type="text" id="right-label" placeholder="Mumbai" name="city" pattern="[A-Za-z]*">
             </div>
           </div>
           <div class="row">

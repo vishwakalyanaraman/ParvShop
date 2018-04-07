@@ -19,7 +19,7 @@ if(session_id() == '' || !isset($_SESSION)){session_start();}
     <nav class="top-bar" data-topbar role="navigation">
       <ul class="title-area">
         <li class="name">
-          <h1><a href="index.php">Parv's Computer Store</a></h1>
+          <h1 style="text-align:center;"><a href="index.php">Parv's Computer Store</a></h1>
         </li>
         <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
       </ul>
@@ -48,16 +48,16 @@ if(session_id() == '' || !isset($_SESSION)){session_start();}
 
 
 
-
-    <img data-interchange="[images/bolt-retina.jpg, (retina)], [images/bolt-landscape.jpg, (large)], [images/bolt-mobile.jpg, (mobile)], [images/bolt-landscape.jpg, (medium)]">
-    <noscript><img src="images/bolt-landscape.jpg"></noscript>
+    <h1 style="text-align: center; margin-top: 20px; color: #4e878c;"><strong> Parv's Computer Store </strong></h1>
+    <img data-interchange="[images/index.png, (large)]" style = "display: block; margin: 0 auto;" >
+<!--     <noscript><img src="images/index.png"></noscript> -->
 
 
     <div class="row" style="margin-top:10px;">
       <div class="small-12">
 
         <footer style="margin-top:10px;">
-           <p style="text-align:center; font-size:0.8em;">&copy; Parv's Computer Store. All Rights Reserved.</p>
+           <p style="text-align: center; font-size:0.8em; position: fixed;bottom: 20px; width:80%;margin: 0 0 0 -40%; left:50%;">&copy; Parv's Computer Store. All Rights Reserved.</p>
         </footer>
 
       </div>
